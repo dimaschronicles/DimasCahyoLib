@@ -4,6 +4,9 @@ public class Matematika {
     private double bil1;
     private double bil2;
 
+    public Matematika() {
+    }
+
     public Matematika(double bil1, double bil2) {
         this.bil1 = bil1;
         this.bil2 = bil2;
@@ -25,19 +28,19 @@ public class Matematika {
         this.bil2 = bil2;
     }
 
-    public double getTambah(){
+    public double getTambah() {
         return bil1 + bil2;
     }
 
-    public double getKurang(){
+    public double getKurang() {
         return bil1 - bil2;
     }
 
-    public double getKali(){
+    public double getKali() {
         return bil1 * bil2;
     }
 
-    public double getBagi(){
+    public double getBagi() {
         return bil1 / bil2;
     }
 }

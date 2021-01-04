@@ -1,0 +1,3 @@
+include ':DimasCahyoLib'
+include ':app'
+rootProject.name = "PMO2DimasCahyo11"
